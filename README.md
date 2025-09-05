@@ -17,11 +17,7 @@ The game starts with the computer placing an 'X' in the center square (position 
 
 On your turn, enter the number of the square where you want to place your 'O'
 
-The board is numbered from 1 to 9, left to right, top to bottom:
-
-1 | 2 | 3
-4 | 5 | 6
-7 | 8 | 9
+The board is numbered from 1 to 9, left to right, top to bottom
 
 The game continues until either:
 
@@ -30,38 +26,5 @@ You get three 'O's in a row (horizontally, vertically, or diagonally) - You win!
 The computer gets three 'X's in a row - Computer wins!
 
 All squares are filled with no winner - It's a tie!
-
-#Requirements
-Python 3.x
-
-No external dependencies (uses only built-in modules)
-
-#Game Implementation Details
-The program uses:
-
-A 3x3 list to represent the game board
-
-Input validation to ensure proper moves
-
-Random number generation for computer moves
-
-Functions for board display, move processing, and win detection
-
-#Example Game Session
-
-+-------+-------+-------+
-|       |       |       |
-|   1   |   2   |   3   |
-|       |       |       |
-+-------+-------+-------+
-|       |       |       |
-|   4   |   X   |   6   |
-|       |       |       |
-+-------+-------+-------+
-|       |       |       |
-|   7   |   8   |   9   |
-|       |       |       |
-+-------+-------+-------+
-Enter your move: 1
 
 Enjoy playing Tic-Tac-Toe against the computer!
